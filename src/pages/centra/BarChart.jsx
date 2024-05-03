@@ -6,9 +6,8 @@ const BarChart = () => {
   const labels = ["1", "2", "3", "4", "5", "6"];
   const data = {
     responsive: true,
-
     maintainAspecRatio: false,
-   labels: labels,
+    labels: labels,
     datasets: [
       {
         label: "Dataset",
@@ -22,7 +21,6 @@ const BarChart = () => {
     <div style={{ height: '150%', width: '100%'}}>
       <Bar data={data} />
     </div>
-
   );
 };
 
