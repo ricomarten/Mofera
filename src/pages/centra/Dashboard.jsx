@@ -170,9 +170,7 @@ function DashboardHomePage() {
                 <div className="w-full absolute mt-[900px]">
                   <div className="flex justify-center items-center">
                     <div className="w-[80%] rounded-2xl bg-white  ">
-                      <b className=" text-lg text-black mt-2 inline-block">
-                        Wet Leaves from Plasma
-                      </b>
+                      
                       <div className="absolute left-[65px] rounded-2xl bg-white w-[300px] h-[225px] flex flex-row items-center justify-center gap-[2px] text-seagreen-300">
                       <img
                         className="w-[20.1px] relative h-[20.1px] overflow-hidden shrink-0"
