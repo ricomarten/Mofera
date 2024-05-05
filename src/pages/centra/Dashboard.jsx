@@ -130,8 +130,7 @@ function DashboardHomePage() {
                       </div>           
                     </div>
                   </div>
-                </div>
-                
+                </div>             
                 <div className="w-full absolute mt-[550px] text-3xl">
                   <b>Collector</b>
                 </div>
@@ -167,18 +166,11 @@ function DashboardHomePage() {
                   </div>
                 
                 </div>
-                <div className="w-full absolute mt-[900px]">
+                <div className="w-full absolute mt-[880px] h-[200px]">
                   <div className="flex justify-center items-center">
-                    <div className="w-[80%] rounded-2xl bg-white  ">
-                      
-                      <div className="absolute left-[65px] rounded-2xl bg-white w-[300px] h-[225px] flex flex-row items-center justify-center gap-[2px] text-seagreen-300">
-                      <img
-                        className="w-[20.1px] relative h-[20.1px] overflow-hidden shrink-0"
-                        alt=""
-                        src={"src/assets/dashboard/frame1.svg"}
-                      />
-                      <div className="relative font-semibold">Add on</div>
-                    </div>
+                    <div className="w-[80%] rounded-2xl bg-white inline-flex justify-center p-20">
+                      <img className="w-[25px] h-[25px]" alt="" src={"src/assets/dashboard/frame1.svg"}/>
+                      <div className="font-semibold text-primary">Add on</div>
                     </div>
                   </div>
                 
